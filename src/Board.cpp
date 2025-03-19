@@ -82,7 +82,7 @@ void Board::ToolBarValid() const
 void Board::newBoard() 
 {
 	srand((unsigned int)time(NULL));
-	m_ToolBarData[Remaining] = (rand() % MAX_STICKS) + MIN_STICKS;	//רמת קושי בעתיד יהיה
+	m_ToolBarData[Remaining] = (rand() % MAX_STICKS) + MIN_STICKS;	
 	m_ToolBarData[Time] = m_ToolBarData[Remaining] * FACTOR;
 
 	//build sticks list

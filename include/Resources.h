@@ -28,7 +28,7 @@ const sf::Vector2f BUTTON_MENU_SIZE = { 315.f, 90.f };
 const int THICKNESS_FRAME = 3;
 const int FPS = 60;
 const double PI = 3.14159265358979323846;
-const int START = 0, END = 1, FACTOR = 3;
+const int START = 0, END = 1, FACTOR = 2;
 const std::chrono::seconds OUTLINE_DURATION{ 1 };
 const int TOOL_BAR_SIZE = 5;
 
